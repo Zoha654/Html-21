@@ -1,0 +1,21 @@
+<html>
+
+<body>
+    <p id="demo"></p>
+</body>
+<script>
+    function max() {
+        var i
+        var m = 0
+        for (i = 0; i < arguments.length; i++) {
+            if (arguments[i] > m) {
+                m = arguments[i]
+            }
+        }
+        return m
+    }
+    document.getElementById("demo").innerHTML = max(4, 9, 12, 435, 13, 6)
+
+</script>
+
+</html>
